@@ -39,16 +39,15 @@ const styles = StyleSheet.create({
   },
   date: {
     color: Colors.GRAY,
-    fontSize: 13,
+    fontSize: 16,
   },
   day: {
-    fontSize: 20,
-    fontWeight: 'bold',
+    fontSize: 25,
     color: Colors.WHITE,
   },
   divider: {
     color: Colors.WHITE,
-    fontSize: 16,
+    fontSize: 18,
     textAlign: 'center',
   },
 });
