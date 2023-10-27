@@ -2,7 +2,7 @@ import React from 'react';
 import {ActivityIndicator, StyleSheet, Text, ViewProps} from 'react-native';
 import {TouchableOpacity} from 'react-native-gesture-handler';
 import LinearGradient from 'react-native-linear-gradient';
-import {Colors} from 'react-native/Libraries/NewAppScreen';
+import {Colors} from '~/constants';
 
 type Props = {
   label: string;
@@ -37,7 +37,7 @@ const styles = StyleSheet.create({
   container: {
     borderRadius: 10,
     paddingHorizontal: 15,
-    paddingVertical: 8,
+    paddingVertical: 10,
     alignItems: 'center',
     justifyContent: 'center',
   },
